@@ -1,0 +1,33 @@
+.darkMode {
+  background: #18103e;
+  color: white;
+  overflow: hidden;
+}
+.darkMode .card_bg,
+.darkMode .detail_bg {
+  background-color: #e3e5e937;
+}
+.darkMode div,
+.darkMode a,
+.darkMode p {
+  color: white;
+}
+.darkMode .logout_btn {
+  color: teal;
+  background-color: rgba(255, 255, 255, 0.797);
+}
+
+.lightMode {
+  background: #fff0e5;
+  color: black;
+  overflow: hidden;
+}
+.lightMode .card_bg,
+.lightMode .detail_bg {
+  background-color: #fff0e5;
+}
+.lightMode div,
+.lightMode a,
+.lightMode p {
+  color: black;
+}

@@ -1,0 +1,29 @@
+.faq {
+  width: 65%;
+  margin: 4rem auto;
+  color: grey;
+}
+.faq h3 {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 3rem;
+}
+.text_faq {
+  padding-left: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .faq {
+    width: 95%;
+    margin: 2rem auto;
+  }
+  .faq h3 {
+    margin-bottom: 1.5rem;
+    padding: 0;
+    text-align: start;
+    font-size: 28px;
+  }
+  .text_faq {
+    padding-left: 0;
+  }
+}

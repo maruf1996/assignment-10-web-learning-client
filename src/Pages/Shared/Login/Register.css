@@ -1,0 +1,11 @@
+.register_form {
+  width: 25%;
+  margin: 4rem auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .register_form {
+    width: 90%;
+    margin: 3rem auto;
+  }
+}

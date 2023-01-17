@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+
+.detail {
+  width: 83%;
+  margin: 1rem auto;
+}
+.details {
+  font-size: 20px;
+  margin: 1rem 0.2rem;
+  text-align: justify;
+  font-family: "Crimson Text", serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .detail {
+    width: 100%;
+    padding: 1rem;
+  }
+  .details {
+    font-size: 18px;
+    text-align: justify;
+  }
+}

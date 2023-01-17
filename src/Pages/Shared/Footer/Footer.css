@@ -1,0 +1,23 @@
+.footer {
+  padding: 30px;
+}
+.footer_link {
+  width: 200px;
+  margin: 20px auto;
+}
+.footer_link a,
+.footer_link span {
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    padding: 10px;
+  }
+  .footer_link {
+    width: 100px;
+  }
+}
